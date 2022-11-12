@@ -26,6 +26,8 @@ public class Calculo {
         float precioFinal = calcularIva(precioSinIva, iva);
         System.out.println("el Precio sin Iva " + precioSinIva);
         System.out.println("Precio final :" + precioFinal);
+        System.out.println(letra);
+
     }
 
     private static float calcularIva(float precioSinIva, float iva) {
